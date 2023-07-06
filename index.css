@@ -124,11 +124,10 @@ footer a {
 .headline span {
   background-color: #FEFEFE;
   border-radius: 5px;
-  padding: 6px;
+  padding: 10px;
   margin-left: 12px;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 700;
-  text-transform: uppercase;
 }
 
 .reportContainer {
