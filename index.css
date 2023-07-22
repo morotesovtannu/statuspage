@@ -122,12 +122,16 @@ footer a {
 }
 
 .headline span {
-  background-color: #FEFEFE;
-  border-radius: 5px;
-  padding: 10px;
+  border-radius: 31px;
+  background: #2f3488;
+  box-shadow: inset 10px 10px 7px #25296b,
+            inset -10px -10px 7px #393fa5;
+  padding: 12px;
+  width:70%;
   margin-left: 12px;
   font-size: 20px;
-  font-weight: 700;
+  font-weight:normal;
+  color:#f7f6ff
 }
 
 .reportContainer {
@@ -136,10 +140,12 @@ footer a {
 }
 
 .statusContainer {
-  border: 1px solid #6a7a89;
-  border-radius: 5px;
+  background: #131533;
+  border-radius: 33px;
   padding-top: 20px;
   text-align: left;
+  box-shadow:  41px 41px 82px #080814,
+             -41px -41px 82px #1e2252;
   padding: 24px;
 }
 
@@ -217,23 +223,27 @@ footer a {
 }
 
 .success {
-  background-color: #4cae50;
-  color: #fff;
+  background: #29ff03;
+  box-shadow:  5px 5px 10px #21cf02;
+  color: #303680;
 }
 
 .failure {
-  background-color: #f44336;
-  color: #fff;
+  background: #f44336;
+  box-shadow:  5px 5px 10px #ca362c;
+  color: #303680;
 }
 
 .nodata {
-  background-color: #747474;
-  color: #FEFEFE;
+  background: #747474;
+  box-shadow:  5px 5px 10px #424242;
+  color: #303680;
 }
 
 .partial {
-  background-color: #ff9800;
-  color: #fff;
+  background: #ff9800;
+  box-shadow:  5px 5px 10px #d88200;
+  color: #303680;
 }
 
 .tooltip {
